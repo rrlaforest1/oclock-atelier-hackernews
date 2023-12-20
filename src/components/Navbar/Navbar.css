@@ -4,6 +4,7 @@
     background-color: red;
     padding: 1rem;
     color: white;
+    height: 50px;
 
     .logo {
         font-size: 1rem;
