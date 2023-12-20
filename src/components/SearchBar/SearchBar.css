@@ -1,0 +1,29 @@
+.search-bar {
+
+    & form {
+        display: flex;
+        margin: 2rem 0;
+        border: 1px solid black;
+
+        & input {
+            padding: 1rem;
+            flex: 100%;
+
+            font-size: 2rem;
+            font-style: italic;
+
+            &:focus-visible {
+
+                outline: 0;
+            }
+        }
+
+        & button {
+            flex: 10%;
+            background-color: black;
+            color: white;
+            padding: 0 1.5rem;
+            cursor: pointer;
+        }
+    }
+}

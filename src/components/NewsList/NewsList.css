@@ -1,0 +1,48 @@
+.news {
+    .news-list {
+        display: flex;
+        flex-wrap: wrap;
+
+
+
+        .news-item {
+            width: 33.33%;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            .news-title {
+                font-size: 1.5rem;
+                background-color: black;
+                color: white;
+                padding: 0.3rem;
+            }
+
+            .news-author {
+                text-transform: capitalize;
+                font-weight: 900;
+
+                & span {
+                    color: #999;
+                    font-weight: 100;
+                    font-size: 0.8rem;
+                }
+            }
+
+            .news-link {
+                & a {
+                    border-bottom: 1px solid #434DBC;
+                    color: #434DBC
+                }
+
+            }
+
+            .news-date {
+                font-size: 0.7rem;
+                color: #999;
+            }
+        }
+
+    }
+}
